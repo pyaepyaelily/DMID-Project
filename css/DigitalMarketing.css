@@ -1,0 +1,18 @@
+
+
+/*#plswork {
+    position: relative;
+   background-image: url("http://www.chowdhurysdigital.com/wp-content/uploads/2017/06/Top-8-Digital-Marketing-Job-Opportunities.jpg")
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}*/
+
+
+#plswork {
+	background-image: url('img/sch1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}

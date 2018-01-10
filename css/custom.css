@@ -1,0 +1,77 @@
+/* GENERAL STYLES
+-------------------------------------------------*/
+body {
+    font-family:sans-serif;
+    font-size:1em;
+    color:#777;
+    font-weight:300;
+    line-height:1.7;
+    overflow-x:hidden;
+}
+
+h2,h3 {
+    color:#333;
+    line-height:1.4;
+    font-weight:700;
+}
+
+.mx-width {
+    max-width:960px;
+    margin:0 auto;
+}
+
+a,a:hover {
+    color:#563d7c;
+    text-decoration:none;
+}
+
+img{
+  width:50%;
+  max-width: 80%;
+  height:auto;
+}
+
+
+header {
+    padding-bottom:20px;
+}
+
+
+/* PARALLAX
+-------------------------------------------------*/
+.parallax {
+    text-align:center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed!important;
+    overflow:hidden;
+}
+
+#banner{
+    height:580px;
+    padding-top:170px;
+}
+
+
+/* FOOTER
+-------------------------------------------------*/
+.footer {
+    background:#563d7c;
+    margin-top:120px;
+    position:relative
+}
+
+
+.footer p {
+    color:#fff;
+    font-size:.9em;
+    line-height:24px;
+    font-weight:300;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+}
+
+
