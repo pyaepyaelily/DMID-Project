@@ -7,28 +7,113 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Welcome</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-   <!--  <link href="css/testing.css" rel="stylesheet"> -->
-  </head>
+    <link href="css/carousel.css" rel="stylesheet">
 
+     <!--LINK CSS -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="https://use.fontawesome.com/07b0ce5d10.js"></script>
+
+
+
+
+    <style>
+    #plswork{
+      margin: 0px 80px 0px 80px;
+
+    }
+  </style>
+  </head>
   <body>
 
-    
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="DMID.html">Delta thing</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Schools
+            </a>
+            <ul class="dropdown-menu multi-column columns-2">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#">School of Business</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="DMID-Digital Marketing.html">Diploma in Digital Marketing</a></li>
+                    <li><a href="#">Diploma in something</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="#">School of IT</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Diploma in IT</a></li>
+                    <li><a href="#">Diploma in something</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Admission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CCAs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Facilities</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+         <!--  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        </form>
+
+            <a id='login' class="nav-link" href="#">Login</a>
+
+      </div>
+    </nav>
+
+      <div id='plswork'>
+      <h1>News</h1>
+       <div class="row">
+   
+        <article class="col-lg-4">
+          <img class="mx-auto" src="images/icon-exoticpets.svg" alt="Icon">
+          <h3>Exotic Pets</h3>
+          <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+        </article>
+
+        <article class="col-lg-4">
+          <img class="mx-auto" src="images/icon-grooming.svg" alt="Icon">
+          <h3>Grooming</h3>
+          <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+        </article>
+
+        <article class="col-lg-4">
+          <img class="mx-auto" src="images/icon-health.svg" alt="Icon">
+          <h3>General Health</h3>
+          <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+        </article>
+
+
       </div>
     </div>
-
-   
+    
 
 
     <!-- Bootstrap core JavaScript
@@ -38,6 +123,8 @@
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
