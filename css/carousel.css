@@ -13,7 +13,8 @@ body, html {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  /*margin-bottom: 4rem;*/
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -167,8 +168,11 @@ body, html {
   border: 1px solid black;
 }
 
+/*-----------------TABLE-----------------*/
 .breadcrumb{
-  margin: 
+  margin: 0px 0px 0px 0px;
+  background-color: transparent;
+  padding: 0px 0px 0px 0px;
 }
 
 /*-----------------FOOTER-----------------*/
