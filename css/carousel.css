@@ -109,11 +109,18 @@ body, html {
 
 /*-----------------NAVBAR-----------------*/
 #login{
-  color:gray;
+  color:#A6ACAF;
 }
 
+/*#plsdontlightup{
+  color: #A6ACAF  ;
+}
+#plsdontlightup:hover{
+  color: #CACFD2 ;
+}*/
+
 #login:hover{
-  color:white;
+  color:#CACFD2 ;
 }
 
 .dropdown-divider{
